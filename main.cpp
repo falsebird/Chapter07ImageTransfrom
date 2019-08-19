@@ -1,9 +1,9 @@
 #include"main.h"
-#include"canny.h"
+#include"sobel.h"
 
 
 int  main() {
 	
-	cannyShow();
+	sobelShow();
 	return 0;
 }

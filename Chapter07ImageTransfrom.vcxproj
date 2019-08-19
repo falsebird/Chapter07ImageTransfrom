@@ -126,10 +126,12 @@
   <ItemGroup>
     <ClCompile Include="canny.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sobel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="canny.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="sobel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
