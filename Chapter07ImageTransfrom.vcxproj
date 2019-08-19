@@ -125,12 +125,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="canny.cpp" />
+    <ClCompile Include="edge\EdgeDetection.cpp" />
+    <ClCompile Include="Laplcian.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scharr.cpp" />
     <ClCompile Include="sobel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="canny.h" />
+    <ClInclude Include="edge\EdgeDetection.h" />
+    <ClInclude Include="Laplcian.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="Scharr.h" />
     <ClInclude Include="sobel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

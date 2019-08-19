@@ -1,9 +1,9 @@
 #include"main.h"
-#include"sobel.h"
+#include"edge/EdgeDetection.h"
 
 
 int  main() {
 	
-	sobelShow();
+	EdgeDetectionMain();
 	return 0;
 }

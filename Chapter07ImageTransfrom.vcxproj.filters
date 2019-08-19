@@ -24,6 +24,15 @@
     <ClCompile Include="sobel.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Laplcian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scharr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="edge\EdgeDetection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -34,6 +43,15 @@
     </ClInclude>
     <ClInclude Include="sobel.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Laplcian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Scharr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="edge\EdgeDetection.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

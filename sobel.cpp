@@ -1,6 +1,7 @@
 #include"sobel.h"
 
 void sobelShow() {
+	//°æ0°ø¥¥Ω® grad_x ∫Õ grad_y æÿ’Û
 	Mat grad_x, grad_y;
 	Mat abs_grad_x, abs_grad_y, dst;
 
